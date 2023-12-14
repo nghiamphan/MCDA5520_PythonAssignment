@@ -8,7 +8,7 @@ def count_vowels(s: str) -> int:
     if not isinstance(s, str):
         s = str(s)
 
-    vowels = ["a", "e", "i", "o", "u"]
+    vowels = ["a", "e", "i", "o", "u", "A", "E", "I", "O", "U"]
     count = 0
     for c in s:
         if c in vowels:
